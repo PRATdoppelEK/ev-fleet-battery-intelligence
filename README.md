@@ -121,3 +121,21 @@ ev-fleet-battery-intelligence/
 - battery-ecm-simulation: Python ECM with 14S3P pack simulation
 - battery-digital-twin: Full MLOps pipeline with Kubernetes and drift monitoring
 - enterprise-industrial-agent-harness: FDE toolkit for enterprise deployments
+
+---
+
+## 📬 Contact
+
+**Prateek Gaur** — Forward Deployment Engineer | Battery Systems | AI Enablement  
+📧 prateekgaur@gmx.de  
+🌐 [Portfolio](https://prateek-gaur-ml-bz0s69q.gamma.site)  
+💼 [LinkedIn](https://linkedin.com/in/prateek-gaur-15a629b4)  
+🐙 [GitHub](https://github.com/PRATdoppelEK)
+
+---
+
+*See also:*  
+[`battery-soh-lstm`](https://github.com/PRATdoppelEK/battery-soh-lstm) · 
+[`battery-ecm-simulation`](https://github.com/PRATdoppelEK/battery-ecm-simulation) · 
+[`battery-digital-twin`](https://github.com/PRATdoppelEK/battery-digital-twin) · 
+[`enterprise-industrial-agent-harness`](https://github.com/PRATdoppelEK/enterprise-industrial-agent-harness)
