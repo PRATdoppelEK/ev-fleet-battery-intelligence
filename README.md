@@ -1,12 +1,13 @@
+# EV Fleet Battery Intelligence
+
+Real-time battery health monitoring dashboard for electric vehicle fleets.
+Monitors forklifts, delivery vans, cargo bikes, and e-scooters.
+
 ![Dashboard Alerts](assets/demo-alerts.png)
 
 ![Dashboard Charts](assets/demo-charts.png)
 
 ![Fleet Table](assets/demo-table.png)
-# EV Fleet Battery Intelligence
-
-Real-time battery health monitoring dashboard for electric vehicle fleets.
-Monitors forklifts, delivery vans, cargo bikes, and e-scooters.
 
 Built by Prateek Gaur — Forward Deployment Engineer | Battery Systems | AI
 Portfolio: https://prateek-gaur-ml-bz0s69q.gamma.site
