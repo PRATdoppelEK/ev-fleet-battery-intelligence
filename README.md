@@ -1,3 +1,8 @@
+![Dashboard Alerts](assets/demo-alerts.png)
+
+![Dashboard Charts](assets/demo-charts.png)
+
+![Fleet Table](assets/demo-table.png)
 # EV Fleet Battery Intelligence
 
 Real-time battery health monitoring dashboard for electric vehicle fleets.
