@@ -3,11 +3,11 @@
 Real-time battery health monitoring dashboard for electric vehicle fleets.
 Monitors forklifts, delivery vans, cargo bikes, and e-scooters.
 
-![Dashboard Alerts](demo-alerts.png)
+![Dashboard Alerts](screenshots/demo-alerts.png)
 
-![Dashboard Charts](demo-charts.png)
+![Dashboard Charts](screenshots/demo-charts.png)
 
-![Fleet Table](demo-table.png)
+![Fleet Table](screenshots/demo-table.png)
 
 Built by Prateek Gaur — Forward Deployment Engineer | Battery Systems | AI
 Portfolio: https://prateek-gaur-ml-bz0s69q.gamma.site
