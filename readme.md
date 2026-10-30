@@ -97,7 +97,11 @@ Estimation method: capacity fade model based on total cycles and degradation rat
 SOC (State of Charge): current energy level 0-100%.
 Estimation method: Coulomb counting with temperature-corrected OCV.
 
-Anomaly detection: statistical deviation from fleet average per vehicle type.
+Anomaly detection: robust deviation (median / MAD) from the fleet of the same vehicle type for
+resistance and temperature, plus SOH compared with what the cycle count predicts. Status is decided
+from telemetry only; the simulator's injected fault is kept just to measure detection.
+On 50 simulated fleets, 93% of injected faults are flagged, with alerts on about 1% of vehicles
+that have no injected fault (`python run.py --terminal` prints the check).
 
 This project builds on the author's M.Sc. thesis (Custom Battery Cell Balancing
 Under Thermal Gradient, TU Berlin) and industrial experience at Dan-Tech Energy GmbH
