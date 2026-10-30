@@ -1,6 +1,6 @@
 # EV Fleet Battery Intelligence
 
-Real-time battery health monitoring dashboard for electric vehicle fleets.
+Battery health monitoring dashboard for electric vehicle fleets, running on a fleet simulator.
 Monitors forklifts, delivery vans, cargo bikes, and e-scooters.
 
 ![Dashboard Alerts](screenshots/demo-alerts.png)
@@ -15,10 +15,14 @@ GitHub: https://github.com/PRATdoppelEK
 
 ---
 
+> **📌 About this repo:** This is a showcase repo — write-up, architecture, and results only. The full implementation lives in a private core repo (kept private to protect the code and as a backup) and is available for a live walkthrough on request, e.g. in an interview.
+
+---
+
 ## What This Is
 
-A production-ready battery fleet intelligence system that gives fleet operators
-instant visibility into the health of every battery in their fleet.
+A battery fleet intelligence prototype that shows fleet operators the health of
+every battery in their fleet. The demo runs on simulated data for 40 vehicles.
 
 No more discovering a failed forklift battery at the start of a shift.
 No more unexpected delivery van breakdowns mid-route.
@@ -97,7 +101,7 @@ Anomaly detection: statistical deviation from fleet average per vehicle type.
 
 This project builds on the author's M.Sc. thesis (Custom Battery Cell Balancing
 Under Thermal Gradient, TU Berlin) and industrial experience at Dan-Tech Energy GmbH
-(LSTM-based SOH prediction on real industrial datasets).
+(battery degradation analysis).
 
 ---
 
@@ -123,10 +127,9 @@ ev-fleet-battery-intelligence/
 
 ## Related Projects
 
-- battery-soh-lstm: LSTM model for SOH prediction (MAE=0.018, R2=0.94)
+- battery-soh-lstm: LSTM model for SOH prediction (MAE 0.0057, R² 0.96 on synthetic data)
 - battery-ecm-simulation: Python ECM with 14S3P pack simulation
 - battery-digital-twin: Full MLOps pipeline with Kubernetes and drift monitoring
-- enterprise-industrial-agent-harness: FDE toolkit for enterprise deployments
 
 ---
 
@@ -143,5 +146,4 @@ ev-fleet-battery-intelligence/
 *See also:*  
 [`battery-soh-lstm`](https://github.com/PRATdoppelEK/battery-soh-lstm) · 
 [`battery-ecm-simulation`](https://github.com/PRATdoppelEK/battery-ecm-simulation) · 
-[`battery-digital-twin`](https://github.com/PRATdoppelEK/battery-digital-twin) · 
-[`enterprise-industrial-agent-harness`](https://github.com/PRATdoppelEK/enterprise-industrial-agent-harness)
+[`battery-digital-twin`](https://github.com/PRATdoppelEK/battery-digital-twin)
